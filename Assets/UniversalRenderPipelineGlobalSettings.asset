@@ -193,8 +193,8 @@ MonoBehaviour:
       type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_version: 0
-        m_EnableCompilationCaching: 1
-        m_EnableValidityChecks: 1
+        m_EnableCompilationCaching: 0
+        m_EnableValidityChecks: 0
     - rid: 479579523447783438
       type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
@@ -241,7 +241,7 @@ MonoBehaviour:
       type: {class: ProbeVolumeGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_Version: 1
-        m_ProbeVolumeDisableStreamingAssets: 0
+        m_ProbeVolumeDisableStreamingAssets: 1
     - rid: 479579523447783444
       type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
